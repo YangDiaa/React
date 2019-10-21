@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.css","todo.css"],"names":[],"mappings":"AAAA,QACI,WAAY,CACZ,YAAa,CACb,cACJ,CCJA,KACI,WAAY,CACZ,YAAa,CACb,oBACJ","file":"main.d547e5ee.chunk.css","sourcesContent":[".active{\r\n    width: 100px;\r\n    height: 200px;\r\n    background:red;\r\n}",".box{\r\n    width: 300px;\r\n    height: 300px;\r\n    border: red solid 2px;\r\n}"]}
