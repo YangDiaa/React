@@ -1,0 +1,53 @@
+.logintop{
+    padding: 10px;
+    background-color: #f6f6f6;
+    border-radius: 3px 3px 0 0;
+}
+.logintop a{
+    color: #80bd01;
+    margin-right: 10px;
+}
+.logintop span{
+    color: #999;
+}
+.loginbottom{
+    padding: 10px;
+}
+.form{
+    margin-top: 40px;
+}
+.form span{
+    color: #333;
+    font-size: 14px; 
+    margin-left: 150px;
+}
+.form input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.loginbutton{
+    font-size: 14px;
+    margin-left: 260px;
+}
+.loginbutton button{
+    width: 50px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    background: #08c;
+    padding: 3px 10px;
+    margin-right: 5px;
+    color: white;
+}
+.loginbutton a{
+    color: #778087;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.loginbutton a:hover{
+    text-decoration: underline;
+}
