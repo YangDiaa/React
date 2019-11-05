@@ -29,7 +29,7 @@ export default class Title extends Component{
             fetch('https://cnodejs.org/api/v1/topics?tab='+tab+'&&page='+page)
                 .then((res)=>res.json())
                 .then((res)=>{
-                    console.log(res)
+                    console.log(res);
                     this.setState({
                         data: res.data
                     });
