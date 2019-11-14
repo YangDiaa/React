@@ -62,12 +62,12 @@ export default class Linggan extends React.Component {
                             columnNum={2}
                             hasLine={false}
                             renderItem={dataItem => (
-                                <div style={{ width:'100%',height:'100%',padding:'10px' }}>
+                                <div style={{ width:'90%',height:'100%',background:'white',marginLeft:'5%' }}>
                                     <img src={dataItem.icon} style={{ width: '100%', height: '90%' }} alt="" />
-                                    <div style={{ fontSize: 20,width: '100%',background:'white' }}>
+                                    <div style={{ fontSize: 20,width: '100%' }}>
                                         <img src={dataItem.person} style={{ width: '16%', height: '16%',float:'left' }} alt="" />
-                                        <span style={{ width: '70%', float:'left',color:'#8e8e8e',lineHeight:'30px' }}>{dataItem.text}</span>
-                                        <span style={{ width: '14%', color:'red',float:'right' }} className="iconfont icon-Love"></span>
+                                        <span style={{ width: '60%', float:'left',color:'#8e8e8e',lineHeight:'35px' }}>{dataItem.text}</span>
+                                        <span style={{ width: '14%', color:'red',float:'right',lineHeight:'35px' }} className="iconfont icon-Love"></span>
                                     </div>
                                 </div>
                             )}
