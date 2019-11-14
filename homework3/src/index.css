@@ -1,0 +1,11 @@
+/* 在CSS文件中引入antd的css文件 */
+@import '~antd/dist/antd.css';
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input::-webkit-input-placeholder {
+    color: #afacaa;
+    font-size: 1em;
+ }

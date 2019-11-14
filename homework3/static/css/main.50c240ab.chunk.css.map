@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAEA,EACI,SAAU,CACV,QACJ,CAEA,iCACI,aAAc,CACd,aACH","file":"main.50c240ab.chunk.css","sourcesContent":["/* 在CSS文件中引入antd的css文件 */\n@import '~antd/dist/antd.css';\n*{\n    padding: 0;\n    margin: 0;\n}\n\ninput::-webkit-input-placeholder {\n    color: #afacaa;\n    font-size: 1em;\n }"]}
