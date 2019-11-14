@@ -13,30 +13,30 @@ const tabs = [
 
 const data1 = [
     { 
-        icon:'/images/灵感1.png',
-        person:'/images/p1.png',
+        icon:'./images/灵感1.png',
+        person:'./images/p1.png',
         text:'橙色律动'
     },
     { 
-        icon:'/images/灵感2.png',
-        person:'/images/p2.png',
+        icon:'./images/灵感2.png',
+        person:'./images/p2.png',
         text:'儿童房'
     },
     { 
-        icon:'/images/灵感3.png',
-        person:'/images/p3.png',
+        icon:'./images/灵感3.png',
+        person:'./images/p3.png',
         text:'翻滚吧，地毯君'
     },
     { 
-        icon:'/images/灵感4.png',
-        person:'/images/p4.png',
+        icon:'./images/灵感4.png',
+        person:'./images/p4.png',
         text:'角落里的遐想'
     },
     { 
-        icon:'/images/灵感5.png',
+        icon:'./images/灵感5.png',
     },
     { 
-        icon:'/images/灵感6.png',
+        icon:'./images/灵感6.png',
     }
 ];
   
@@ -67,7 +67,7 @@ export default class Linggan extends React.Component {
                                     <div style={{ fontSize: 20,width: '100%',background:'white' }}>
                                         <img src={dataItem.person} style={{ width: '16%', height: '16%',float:'left' }} alt="" />
                                         <span style={{ width: '70%', float:'left',color:'#8e8e8e',lineHeight:'30px' }}>{dataItem.text}</span>
-                                        <span style={{ width: '14%', color:'red' }} className="iconfont icon-Love"></span>
+                                        <span style={{ width: '14%', color:'red',float:'right' }} className="iconfont icon-Love"></span>
                                     </div>
                                 </div>
                             )}

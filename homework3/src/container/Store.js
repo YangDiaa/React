@@ -56,12 +56,12 @@ const data1 = [
 
 const data2 = [
     { 
-        icon:'/images/store1.png',
+        icon:'./images/store1.png',
         text:'Top Art Studio 欧式风格精细...',
         price:'￥39.95'
     },
     { 
-        icon:'/images/store2.png',
+        icon:'./images/store2.png',
         text:'顺顺工艺欧式风格塑料外框黑...',
         price:'￥83.99'
     }
@@ -99,7 +99,7 @@ export default class Store extends React.Component {
                             style={{ display: 'inline-block', width: '100%', height: '100%' }}
                         >
                             <img
-                                src={'/images/store.png'}
+                                src={'./images/store.png'}
                                 alt=""
                                 style={{ width: '100%', verticalAlign: 'top' }}
                                 onLoad={() => {

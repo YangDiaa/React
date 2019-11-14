@@ -3,15 +3,15 @@ import {NavBar,Carousel,Grid,Card} from 'antd-mobile';
 
 const data1 = [
     {
-        icon: '/images/home3.png',
+        icon: './images/home3.png',
         text: '热门品牌'
     },
     {
-        icon: '/images/home4.png',
+        icon: './images/home4.png',
         text: '私人搭配师'
     },
     {
-        icon: '/images/home5.png',
+        icon: './images/home5.png',
         text: '选购指南'
     }
 ];
@@ -43,7 +43,7 @@ export default class Home extends Component {
                             style={{ display: 'inline-block', width: '100%', height: '100%' }}
                         >
                             <img
-                                src={'/images/home'+val+'.png'}
+                                src={'./images/home'+val+'.png'}
                                 alt=""
                                 style={{ width: '100%', verticalAlign: 'top' }}
                                 onLoad={() => {
@@ -75,7 +75,7 @@ export default class Home extends Component {
                         thumb={<div style={{width:'5px',height:'20px',background:'#3fcccb'}}></div>}
                     />
                     <Card.Body>
-                        <img src='/images/tuijian.png' style={{width:'100%'}}/>
+                        <img src='./images/tuijian.png' style={{width:'100%'}}/>
                     </Card.Body>
                     <Card.Footer 
                         content="什么是英伦装修风格 英伦风家装 英伦风格装修效果图" 
